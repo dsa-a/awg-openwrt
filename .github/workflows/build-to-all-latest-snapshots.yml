@@ -7,8 +7,7 @@ on:
   push:
     tags:
       - "SNAPSHOT"
-  schedule:
-    - cron: '0 */4 * * *'
+
   workflow_dispatch:
 
 jobs:
